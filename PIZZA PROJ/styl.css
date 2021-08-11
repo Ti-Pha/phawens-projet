@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+    padding: 0;
+    font-family: algerian, sans-serif;
+    background: url(D:PIZZA PROJ/image/restaurant-pizza-nulle-part-ailleurs.png);
+    background-size: cover;
+
+}
+
+nav {
+	display: flex ;
+	flex-wrap:wrap ;
+	justify-content: space-between;
+	padding: 20px;
+	margin: 0px;
+	padding: 1px;
+	position: sticky;
+	top: 20;
+	}
+nav h1 {
+	font-size: 20px;
+	background-color:;
+	margin: 10px;
+	padding: 5px;
+	font-family: arial black;
+}
+
+h2 {
+	margin: 15px;
+	padding-left: 45px;
+	padding-right: 0px;
+}
+
+ul {
+	float: right;
+	position: sticky;
+	display: flex;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+nav .onglets{
+	display: flex;
+	flex-wrap: wrap;
+	float: right;
+
+}
+li {
+	float: right;
+
+}
+nav .onglets a{
+    font-size: 17px;
+    margin: 10px;
+	cursor: pointer;
+	font-size: 15px;
+	font-family: cursive;
+	color: white;
+	list-style-type: none;
+}
+nav .onglets input{
+	margin: 10px 20px;
+	padding: 5px;
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background: #f2f2f2;
+	width: 150px;
+   
+}
+
+header {
+	margin: 0;
+	padding: 7px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: orange;
+}
+
+header button{
+	border-radius: 30px;
+	border: none;
+	outline: none;
+	background-color:;
+	width: 150px;
+	cursor: pointer;
+	margin: 15px 30px;
+	padding: 10px;
+	margin-top: -40px;
+}
